@@ -6,6 +6,8 @@ group :development do
 	gem 'sqlite3', '1.3.5'
 end
 
+gem 'pg', :group => :production
+
 # Gems used only for assets and not required
 # in production environments by default.
 
@@ -15,4 +17,7 @@ group :assets do
 	gem 'uglifier', '1.2.3'
 end
 
-gem 'jquery-rails', '2.0.0'
+
+
+#gem 'jquery-rails', '2.0.0'  not avail at ey and hk
+gem 'jquery-rails' 
